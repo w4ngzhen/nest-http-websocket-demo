@@ -21,4 +21,5 @@ export class ReturnCode {
 }
 
 export const SUCCESS = new ReturnCode('SUC', '00000', 200);
+export const ERR_REQ_FIELD_ERROR = new ReturnCode('ERR', '40000', 400);
 export const ERR_NOT_FOUND = new ReturnCode('ERR', '40400', 404);
