@@ -13,6 +13,7 @@ export class MyWebSocketGateway {
             throw BizException.create(ERR_REQ_FIELD_ERROR, 'data is empty');
         }
         console.log(JSON.stringify(reqData));
+        return 'received reqData';
     }
 
 }
